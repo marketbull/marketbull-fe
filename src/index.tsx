@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { WalletProvider } from 'react-binance-wallet';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <WalletProvider>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </WalletProvider>,
   document.getElementById('root')
 );
 
