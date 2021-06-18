@@ -1,0 +1,7 @@
+const getBlockchain = () => {
+
+}
+
+export {
+    getBlockchain
+}
